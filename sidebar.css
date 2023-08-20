@@ -63,9 +63,16 @@ a{
 		padding-left: 0.1rem;
 	}
 	.nav-link-items{
-	font-size: 15px;
+		font-size: 15px;
 	}
 	.nav-param_link-items{
-	font-size: 14px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 650px){
+	.nav-link-items{
+		font-size: 13px;
+		display: none;
 	}
 }
