@@ -14,15 +14,23 @@ body{
 a{
 	text-decoration: none;
 }
+
+.sidebar{
+	background-color: #093545;
+	height: 100%;
+	position: fixed;
+}
+.sidebar .bakeli-tontine{
+	font-size: 22px;
+}
+
 .nav-link-items{
 	font-size: 17px;
 }
 .nav-param_link-items{
 	font-size: 15px;
 }
-.sidebar{
-	background-color: #093545;
-}
+
 .dropdown .dropdown-menu li:hover{
 	background-color: transparent;
 }
@@ -44,6 +52,15 @@ a{
 
 #header{
 	box-shadow: 0 0 8px 0.7px;
+}
+#header div span .bi{
+	font-size: 25px;
+}
+#header .user-name{
+	font-size: 21px;
+}
+#header .user-type{
+	font-size: 15px;
 }
 #header-btn-down{
 	background-color: transparent;
@@ -70,9 +87,66 @@ a{
 	}
 }
 
+@media screen and (max-width: 823px){
+	#nav ul li .dropdown-toggle span{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.sidebar{
+		bottom: 0;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+	    align-items: center;
+	}
+	.sidebar #nav ul{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.sidebar .bakeli-tontine{
+		display: none;
+	}
+	.nav-link-items{
+		display: none;
+	}
+	.bi{
+		padding: 0 4px;
+	}
+}	
+
 @media screen and (max-width: 650px){
 	.nav-link-items{
 		font-size: 13px;
-		display: none;
+	}
+	
+	#nav ul li a .bi{
+		font-size: 30px;
+		margin: auto;
+	}
+	#nav ul li span .bi{
+		font-size: 30px;
+		margin: ;
+	}
+
+	.sidebar nav {
+	    margin-top: auto;
+	  }
+}
+
+@media screen and (max-width: 575px){
+	.sidebar{
+		height: auto;
+		display: flex;
+		flex-direction: row;
+	    align-items: center;
+	}
+	.sidebar nav ul{
+		display: flex;
+		flex-direction: row;
+	    align-items: center;
 	}
 }
