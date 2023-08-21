@@ -75,6 +75,10 @@ a{
 	border: 2px solid white;
 }
 
+/*
+<<<<<<< HEAD=======
+
+>>>>>>> b7505ad199fe96d705997d07915012392746cf40*/
 @media screen and (max-width: 1000px){
 	#nav ul li{
 		padding-left: 0.1rem;
@@ -129,6 +133,7 @@ a{
 	}
 	#nav ul li span .bi{
 		font-size: 30px;
+		margin: ;
 	}
 
 	.sidebar nav {
@@ -153,11 +158,12 @@ a{
 @media screen and (max-width: 575px){
 	#header .user-name{
 	font-size: 16px;
-}
+	}
 	#header .user-type{
 		font-size: 12px;
 	}
 	.option-menu{
 		font-size: 14px;
 	}
+
 }
