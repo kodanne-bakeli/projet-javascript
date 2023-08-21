@@ -150,3 +150,15 @@ a{
 	    align-items: center;
 	}
 }
+
+@media screen and (max-width: 575px){
+	#header .user-name{
+	font-size: 16px;
+}
+	#header .user-type{
+		font-size: 12px;
+	}
+	.option-menu{
+		font-size: 14px;
+	}
+}
