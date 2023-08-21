@@ -75,6 +75,10 @@ a{
 	border: 2px solid white;
 }
 
+/*
+<<<<<<< HEAD=======
+
+>>>>>>> b7505ad199fe96d705997d07915012392746cf40*/
 @media screen and (max-width: 1000px){
 	#nav ul li{
 		padding-left: 0.1rem;
