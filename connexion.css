@@ -1,0 +1,52 @@
+.bg {
+    background-color: #093545!important;
+}
+.bg .placeholder{
+    color: white !important;
+}
+.titre{
+    color: #093545!important;
+}
+.titre h1{
+    font-size: 60px;
+}
+.gérer{
+   display: flex;
+   justify-content: flex-end;
+}
+.contenu img{
+    width: 100%;
+    height: 615px;
+}
+.conte img{
+    width: 90%;
+    height: 615px;
+}
+.fewnu{
+    width: 100%;
+    height: 515px;
+}
+::placeholder{
+    color: white !important;
+}
+.para{
+    color: #224957 !important;
+    font-weight: bold !important;
+    padding-left: 40% !important;
+    padding-right: 40% !important;
+    background: #20DF7F !important;
+    border: none !important;
+}
+.ra{
+    background: #20DF7F !important;
+    border: none !important;
+    color: #224957 !important;
+}
+.raga{
+    background: #20DF7F !important;
+    border: none !important;
+    border-radius: 5% !important;
+    color: #093545!important;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
