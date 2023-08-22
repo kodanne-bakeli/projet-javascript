@@ -139,11 +139,20 @@ a{
 		height: 55px;
 	}
 	
-	.sidebar{
+	/*.sidebar{
 		background-color: #FFF;
 		box-shadow: 0 0 8px 0.7px #093545;
 		bottom: 0;
 		padding-bottom: 0;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+	    align-items: center;
+	}*/
+	.sidebar{
+		background-color: #FFF;
+		box-shadow: 0 0 8px 0.7px #093545;
+		bottom: 0;
 		height: auto;
 		display: flex;
 		flex-direction: row;
