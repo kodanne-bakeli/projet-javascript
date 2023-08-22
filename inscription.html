@@ -13,75 +13,76 @@
 <body>
     <form>
         <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-6">
-                <div class="conte">
-                <img src="images/inscription.png" class="img-fluid"  alt="">
+            <div class="row ">
+            <div class="col-lg-4 conte">
+                <div class="">
+                <img src="images/Sign up-pana 1.png" class="img-fluid"  alt="">
                 </div>
             </div>
-            <div class="col-lg-6">
-                <h3 class="d-flex justify-content-center py-4">inscription</h3>
+            <div class="col-lg-7 offset-1">
+                <h3 class="d-flex justify-content-center fs-3 fw-bolder titre py-4">Inscription</h3>
                 <div class="row text-start">
                 <div class="col-lg-6">
-                    <label for="exampleInputPassword1" class="form-label">Nom</label>
-                    <input type="name" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputName1" class="form-label">Nom</label>
+                    <input type="name" class="form-control" id="lastname">
+                </div>
+                <div class="col-lg-6 mb-1">
+                    <label for="exampleInputtext1" class="form-label start">Adresse</label>
+                    <input type="adress" class="form-control" id="adress">
+                </div>
+                </div>
+                <div class="row text-start">
+                <div class="col-lg-6">
+                    <label for="exampleInputName1" class="form-label">Prénom</label>
+                    <input type="name" class="form-control" id="firstname">
                 </div>
                 <div class="col-lg-6 mb-2">
-                    <label for="exampleInputPassword1" class="form-label start">Prénom</label>
-                    <input type="name" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputtext1" class="form-label start">Profession</label>
+                    <input type="text" class="form-control" id="profession">
                 </div>
                 </div>
                 <div class="row text-start">
                 <div class="col-lg-6">
-                    <label for="exampleInputPassword1" class="form-label">Date de naissance</label>
-                    <input type="date" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email">
                 </div>
                 <div class="col-lg-6 mb-2">
-                    <label for="exampleInputPassword1" class="form-label start">Profession</label>
-                    <input type="text" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputConfirmPassword1" class="form-label start">Organisation</label>
+                    <input type="text" class="form-control" id="organisation">
                 </div>
                 </div>
                 <div class="row text-start">
                 <div class="col-lg-6">
-                    <label for="exampleInputPassword1" class="form-label">Définir un mot de passe</label>
-                    <input type="password" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputPassword1" class="form-label">Téléphone</label>
+                    <input type="number" class="form-control" id="telephone">
                 </div>
                 <div class="col-lg-6 mb-2">
-                    <label for="exampleInputConfirmPassword1" class="form-label start">Confirmer votre mot de passe</label>
-                    <input type="password" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputPassword1" class="form-label start">Définir votre mot de passe</label>
+                    <input type="password" class="form-control" id="password">
                 </div>
                 </div>
                 <div class="row text-start">
                 <div class="col-lg-6">
-                    <label for="exampleInputPassword1" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="exampleInputName1">
-                </div>
-                <div class="col-lg-6 mb-2">
-                    <label for="exampleInputPassword1" class="form-label start">Téléphone</label>
-                    <input type="name" class="form-control" id="exampleInputName1">
-                </div>
-                </div>
-                <div class="row text-start">
-                <div class="col-lg-6">
-                    <label for="exampleInputPassword1" class="form-label">Adresse</label>
-                    <input type="text" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputDate1" class="form-label">Date de naissance</label>
+                    <input type="date" class="form-control" id="date">
                 </div>
                 <div class="col-lg-6">
-                    <label for="exampleInputPassword1" class="form-label start">Organisation</label>
-                    <input type="text" class="form-control" id="exampleInputName1">
+                    <label for="exampleInputPassword1" class="form-label start">Confirmer votre mot de passe</label>
+                    <input type="confirmpassword" class="form-control" id="confirmpassword">
                 </div>
                 </div>
                 <div class="d-flex justify-content-center pt-5">
-                    <button type="submit" class="btn btn-primary raga fw-bolder">S'inscrire</button>
+                    <button type="submit" class="btn btn-primary raga fw-bolder" id="inscription">S'inscrire</button>
                 </div>
                 <div class="d-flex justify-content-center pt-4">
                     <p>Vous avez déja un compte,</p>
-                    <a class="titre text-decoration-none fw-bolder ps-2" href="index.html">Connectez-vous!</a>
+                    <a class="titre text-decoration-none fw-bolder ps-2" href="index.html" id="ConnectezVous">Connectez-vous!</a>
                   </div>
             </div>
             </div>
         </div>
         
     </form>
+    <script src="connexion.js"></script>
 </body>
 </html>

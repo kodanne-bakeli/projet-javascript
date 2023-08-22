@@ -12,11 +12,11 @@
   </head>
   <body>
     <!-- connexion -->
-     <div class="container-fluid">
+     <div class="container-fluid" id="connexion">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="contenu justify-content-center align-items-center">
-                   <img src="images/Capture d'écran 2023-08-19 223253.png" class="img-fluid"  alt="">
+            <div class="col-lg-4 contenu">
+                <div class="picture">
+                   <img src="images/Group 1597.png"  alt="">
                 </div>
             </div>
             <div class="col-lg-8">
@@ -29,35 +29,36 @@
                   <div class="form d-flex justify-content-center">
                    <div class="col-md-6">
                     <div class="my-4">
-                    <input type="text" class="form-control bg " id="exampleFormControlInput1" placeholder="Nºtéléphone">
+                    <input type="text" class="form-control bg " id="NumberPhone" placeholder="Nºtéléphone">
                       </div>
                       <div class="mb-4">
-                        <input type="password" class="form-control bg" id="exampleFormControlInput1"  placeholder="Mot de passe">
+                        <input type="password" class="form-control bg" id="PasswordConnexion"  placeholder="Mot de passe">
                       </div>
                       <!-- Mot de passe oublie -->
                       <a type="text" class=" gérer text-decoration-none text-dark"  data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal" data-bs-whatever="@mdo">Mot de passe oublié</a>
+                      data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="passwordForget">Mot de passe oublié?</a>
                       <!-- <div class="modal-dialog modal-xl"> -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
-                              <div class="modal-body ">
+                              <div class="modal-body p-0">
                                 <div class="row">
-                                  <div class="col-lg-6">
-                                    <img src="images/mot de passe.png" class=" fewnu" alt="">
+                                  <div class="col-lg-5 fewnu">
+                                    <div class="">
+                                      <img src="images/Group 7.png"  alt="">
+                                    </div>
                                   </div>
-
-                                  <div class="col-lg-6  pe-5">
-                                     <div class="row my-5">
-                                      <div class="card shadow p-3 d-flex align-items-center">
+                                  <div class="col-lg-7 that d-flex justify-content-center align-items-center">
+                                     <div class="col-lg-8 col-md-3">
+                                      <div class="card shadow">
                                         <div class="card-body titre text-start">
                                           <h5 class="card-title">Mot de passe oublié</h5>
                                           <p class="card-text">Pour reinstialiser votre mot de passe entrez votre e-mail ou votre numéro de téléphone.</p>
                                           <div class="mb-4 text-light ">
-                                            <input type="text" class="form-control mt-5 bg" id="exampleFormControlInput1"  placeholder="N téléphone ou e-mail">
+                                            <input type="text" class="form-control mt-5 bg" id="numOrEmail"  placeholder="N téléphone ou e-mail">
                                           </div>
                                           <div class="d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary fs-5 mt-3 ra">Envoyer</button>
+                                            <button type="submit" class="btn btn-primary fs-5 mt-3 ra" id="envoyer">Envoyer</button>
                                           </div>
                                         </div>
                                       </div>
@@ -70,21 +71,18 @@
                         </div> <br> <br>
                       <!-- </div> -->
                      
-                      <button type="submit" class="btn btn-primary para">connexion</button>
+                      <button type="submit" class="btn btn-primary para" id="connexion">connexion</button>
                           <!-- inscription -->
-                         
-                          </div>
+                  </div>
                       </div> 
-                      
                    </div>
                    <div class="d-flex justify-content-center pt-4">
                     <p>Vous n'avez pas de compte,</p>
                     <a class="titre text-decoration-none fw-bolder ps-2" href="inscription.html">inscrivez-vous!</a>
                   </div>
                 </div>
-                </div>
-                
-            </div>
-          
+              </div>
+      </div> 
+      <script src="connexion.js"></script>   
   </body>
 </html>
